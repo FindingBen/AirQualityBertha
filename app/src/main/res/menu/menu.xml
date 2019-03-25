@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_create_order"
+        android:title="@string/users_page"
+        android:icon="@drawable/weather"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_create_orderr"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="2"
+        android:title="Create order"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="3"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+</menu>
